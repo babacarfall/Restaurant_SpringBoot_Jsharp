@@ -1,8 +1,5 @@
-ld": {
-    "type": "maven",
-        "goal": "-Dtest.active=false -Dexec.mainClass=\"com.restau.app.GestionRestaurantApplication\" assembly:jar-with-dependencies exec:java"
-	  },
-	    "deploy": {
-	        "goal": "-Dtest.active=false -Dexec.mainClass=\"com.restau.app.GestionRestaurantApplication\" assembly:jar-with-dependencies exec:java"
-		  }
-		  }
+  {
+    "deploy": {
+      "goal": "-Dtest.active=false -Dexec.mainClass=\"com.restau.GestionRestaurantApplication\"assembly:jar-with-dependencies exec:java"
+    }
+  }

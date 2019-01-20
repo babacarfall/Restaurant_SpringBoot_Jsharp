@@ -91,9 +91,6 @@
 		    <artifactId>spring-boot-starter-thymeleaf</artifactId>
 	    </dependency>
 	</dependencies>
-	<defaultGoal>install</defaultGoal>
-        <!-- Source directory configuration -->
-        <sourceDirectory>src</sourceDirectory>
 	<build>
 		<plugins>
 			<plugin>

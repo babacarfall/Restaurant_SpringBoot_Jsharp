@@ -1,5 +1,9 @@
-  {
-    "deploy": {
-      "goal": "-Dtest.active=false -Dexec.mainClass=\"com.restau.app.GestionRestaurantApplication\"assembly:target/GestionRestaurant-0.0.1-SNAPSHOT.jar exec:java"
-    }
+{
+  "build": {
+    "type": "maven",
+    "goal": "package"
+  },
+  "deploy": {
+    "jarName": "target/GestionRestaurant-0.0.1-SNAPSHOT.jar"
   }
+}

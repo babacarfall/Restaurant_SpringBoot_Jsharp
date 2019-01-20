@@ -1,5 +1,5 @@
   {
     "deploy": {
-      "goal": "com.restau.app.GestionRestaurantApplication\"assembly:jar-with-dependencies exec:java"
+      "goal": "com.restau.app.GestionRestaurantApplication"
     }
   }
